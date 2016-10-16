@@ -1,0 +1,3 @@
+block_timer_enabled: FALSE
+block_timer_timing_good: 50
+block_timer_timing_bad: 200

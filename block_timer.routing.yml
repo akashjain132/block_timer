@@ -1,0 +1,7 @@
+block_timer.admin_page:
+  path: '/admin/config/development/block_timer'
+  defaults:
+    _form: '\Drupal\block_timer\Form\blockTimerForm'
+    _title: 'Block Timer'
+  requirements:
+    _permission: 'administer site configuration'

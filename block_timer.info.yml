@@ -1,0 +1,6 @@
+name: Block Timer
+type: module
+description: "Display block rendering time"
+package: Development
+core: '8.x'
+configure: block_timer.admin_page

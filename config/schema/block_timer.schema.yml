@@ -1,0 +1,15 @@
+# Schema for the configuration files of the block timer module.
+
+block_timer.settings:
+  type: config_object
+  label: 'Block Timer'
+  mapping:
+    block_timer_enabled:
+      type: boolean
+      label: 'Enabled'
+    block_timer_timing_good:
+      type: integer
+      label: 'Good Process Time (msec)'
+    block_timer_timing_bad:
+      type: integer
+      label: 'Bad Process Time (msec)'
